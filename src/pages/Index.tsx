@@ -1,7 +1,7 @@
-const SectionLabel = ({ children }: {children: string;}) =>
-<p className="text-[6.5px] uppercase tracking-[0.15em] text-label font-body font-medium mb-1.5">
-    {children}
-  </p>;
+const SectionLabel = ({ children }: {children: string;}) => {};
+
+
+
 
 
 const Divider = () => <hr className="border-t border-border my-0" style={{ borderWidth: "0.5px" }} />;
@@ -158,7 +158,7 @@ const Index = () => {
           Soli<span className="text-primary">dus</span>
         </p>
         <p className="text-[6.5px] text-label">
-          Legal firms · Real estate · Construction · Utilities
+          ​
         </p>
       </div>
     </div>);
