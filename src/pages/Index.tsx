@@ -1,4 +1,4 @@
-const SectionLabel = ({ children }: {children: string;}) => {};
+const SectionLabel = ({ children }: {children: string;}) => <span className="text-[6px] uppercase tracking-[0.2em] text-label mb-1 block">{children}</span>;
 
 
 
