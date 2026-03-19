@@ -42,8 +42,7 @@ const Index = () => {
       <div className="py-2.5">
         <div className="grid grid-cols-2 gap-3">
           <div className="bg-card rounded-lg p-3">
-            <SectionLabel>
-</SectionLabel>
+            <SectionLabel>THE PROBLEM</SectionLabel>
             <h3 className="text-[10px] font-headline font-bold text-foreground mb-1">The Problem</h3>
             <p className="text-[7.5px] leading-relaxed">
               Most businesses know AI can help — but don't know where to start. They waste hours on repetitive tasks that could be automated, try generic AI tools that don't fit their workflow, and end up frustrated with no real results. The issue isn't AI — it's the lack of a system built for their specific reality.
