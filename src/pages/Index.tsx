@@ -40,7 +40,7 @@ const Index = () => {
 
       {/* PROBLEM & SOLUTION */}
       <div className="py-2.5">
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 gap-3">
           <div className="bg-card rounded-lg p-3">
             
             <h3 className="text-[10px] font-headline font-bold text-foreground mb-1">The Problem</h3>
