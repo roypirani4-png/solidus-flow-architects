@@ -13,7 +13,8 @@ const Index = () => {
       <div className="flex justify-between items-start pb-2.5 border-b-[1.5px] border-foreground">
         <div>
           <h1 className="text-[22px] font-headline font-bold leading-none">
-            Soli<span className="text-primary">dus</span>
+            SolidusAI
+            <span className="text-primary">dus</span>
           </h1>
           <p className="text-[6.5px] uppercase tracking-[0.15em] text-label mt-0.5">AI Agents Agency</p>
         </div>
@@ -41,7 +42,8 @@ const Index = () => {
       <div className="py-2.5">
         <div className="grid grid-cols-2 gap-3">
           <div className="bg-card rounded-lg p-3">
-            <SectionLabel>THE PROBLEM</SectionLabel>
+            <SectionLabel>
+</SectionLabel>
             <h3 className="text-[10px] font-headline font-bold text-foreground mb-1">The Problem</h3>
             <p className="text-[7.5px] leading-relaxed">
               Most businesses know AI can help — but don't know where to start. They waste hours on repetitive tasks that could be automated, try generic AI tools that don't fit their workflow, and end up frustrated with no real results. The issue isn't AI — it's the lack of a system built for their specific reality.
@@ -63,9 +65,7 @@ const Index = () => {
       <div className="py-2.5">
         <SectionLabel>MARKET</SectionLabel>
         <div className="grid grid-cols-3 gap-3 mt-1">
-          {[
-          { title: "Target Audience", text: "Large-scale operations in infrastructure, real estate, construction, and utilities — industries built on manpower, where AI has barely touched the surface." },
-          { title: "Market Opportunity", text: "The global AI agents market is projected to exceed $47B by 2030. Early adopters in professional services are gaining significant operational leverage — most haven't started yet." },
+          {[{ title: "Target Audience", text: "Large-scale operations in infrastructure, real estate, construction, and utilities — industries built on manpower, where AI has barely touched the surface." }, { title: "Market Opportunity", text: "The global AI agents market is projected to exceed $47B by 2030. Early adopters in professional services are gaining significant operational leverage — most haven't started yet." },
           { title: "Our Entry Point", text: "Businesses that tried generic AI tools, failed to see results, and now want something built for their specific reality. High intent, low noise." }].
           map((col) =>
           <div key={col.title} className="border border-border rounded-lg p-2.5">
