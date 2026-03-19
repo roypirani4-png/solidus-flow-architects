@@ -49,7 +49,8 @@ const Index = () => {
             </p>
           </div>
           <div className="bg-card-solution rounded-lg p-3">
-            <SectionLabel>THE SOLUTION</SectionLabel>
+            <SectionLabel>
+</SectionLabel>
             <h3 className="text-[10px] font-headline font-bold text-foreground mb-1"></h3>
             <p className="text-[7.5px] leading-relaxed">
               Solidus AI starts with a deep operational diagnosis — before writing a single line of code. We identify the highest-leverage automation opportunities in your business, then architect and build a custom AI agent system that slots into your existing workflows and runs 24/7 without disruption.
