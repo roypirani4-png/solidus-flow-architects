@@ -155,7 +155,7 @@ const Index = () => {
       {/* FOOTER */}
       <div className="flex justify-between items-center pt-2.5 mt-2.5 border-t border-border">
         <p className="text-[9px] font-headline font-bold">
-          Soli<span className="text-primary">dus</span>
+          Solidus<span className="text-primary">AI</span>
         </p>
         <p className="text-[6.5px] text-label">
           ​
