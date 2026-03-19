@@ -13,8 +13,7 @@ const Index = () => {
       <div className="flex justify-between items-start pb-2.5 border-b-[1.5px] border-foreground">
         <div>
             <h1 className="text-[22px] font-headline font-bold leading-none">
-            SolidusAI
-            <span className="text-primary"></span>
+            Solidus<span className="text-primary">AI</span>
           </h1>
           <p className="text-[6.5px] uppercase tracking-[0.15em] text-label mt-0.5">AI Agents Agency</p>
         </div>
