@@ -40,19 +40,12 @@ const Index = () => {
 
       {/* PROBLEM & SOLUTION */}
       <div className="py-2.5">
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 gap-3">
           <div className="bg-card rounded-lg p-3">
             
             <h3 className="text-[10px] font-headline font-bold text-foreground mb-1">The Problem</h3>
             <p className="text-[7.5px] leading-relaxed">
               Most businesses know AI can help — but don't know where to start. They waste hours on repetitive tasks that could be automated, try generic AI tools that don't fit their workflow, and end up frustrated with no real results. The issue isn't AI — it's the lack of a system built for their specific reality.
-            </p>
-          </div>
-          <div className="bg-card-solution rounded-lg p-3">
-            
-            <h3 className="text-[10px] font-headline font-bold text-foreground mb-1">The Solution</h3>
-            <p className="text-[7.5px] leading-relaxed">
-              Solidus AI starts with a deep operational diagnosis — before writing a single line of code. We identify the highest-leverage automation opportunities in your business, then architect and build a custom AI agent system that slots into your existing workflows and runs 24/7 without disruption.
             </p>
           </div>
         </div>
